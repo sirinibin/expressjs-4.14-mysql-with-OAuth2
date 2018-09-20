@@ -2,12 +2,6 @@
 
   Expressjs 4.15.5 + Mysql  RESTful API with OAuth2
 
-  [![NPM Version][npm-image]][npm-url]
-  [![NPM Downloads][downloads-image]][downloads-url]
-  [![Linux Build][travis-image]][travis-url]
-  [![Windows Build][appveyor-image]][appveyor-url]
-  [![Test Coverage][coveralls-image]][coveralls-url]
-
 This is a RESTful API with OAuth2 authentication/security developed using Expressjs 4.15.5.
 You can use this if you want to quick start developing your own custom RESTful API by skipping 95% of your scratch works.
 Hopefully this will save lot of your time as this API includes all the basic stuffs you need to get started.
