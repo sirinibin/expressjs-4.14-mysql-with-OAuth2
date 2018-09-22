@@ -50,7 +50,7 @@ app.use(function(req, res, next){
   global.connection = mysql.createConnection({
     host     : 'localhost',
     user     : 'root',
-    password : '123',
+    password : 'root',
     port     : 3308,
     database : 'expressjs_api'
   });
