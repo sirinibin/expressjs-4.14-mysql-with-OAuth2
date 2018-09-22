@@ -86,7 +86,8 @@ check('email').custom((value, { req }) => {
         connection.query('SELECT email FROM users WHERE email = ?'
             , [req.body.email], function(error, results, fields) {
 
-                if (results.length > 0&&value==results[0].email) {
+                console.log(results);
+                if (results.length&&results.length > 0&&value==results[0].email) {
                     // console.log(results[0].email);
                     reject(false);
 
