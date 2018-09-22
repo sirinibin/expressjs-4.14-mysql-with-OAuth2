@@ -59,7 +59,7 @@ check('email').custom((value, { req }) => {
                 }
 
 
-                if (results.length > 0&&value==results[0].email) {
+                if (results&&results.length > 0&&value==results[0].email) {
                     // console.log(results[0].email);
                     reject(false);
 
@@ -154,7 +154,7 @@ employees.update=function(req,res) {
             console.log(query1);
 
 
-            if (results.length==0) {
+            if (results&&results.length==0) {
 
                 let response={
                     'status':0,
@@ -227,7 +227,7 @@ employees.delete=function(req,res) {
         console.log(results);
 
 
-           if (results.length ==0) {
+           if (results&&results.length ==0) {
 
                let response={
                    'status':0,
@@ -292,7 +292,7 @@ employees.find=function(req,res,id) {
             console.log(query1);
 
 
-            if (results.length==0) {
+            if (results&&results.length==0) {
 
                 let response={
                     'status':0,

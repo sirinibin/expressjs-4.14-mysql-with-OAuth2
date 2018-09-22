@@ -60,7 +60,7 @@ return new Promise(function(resolve, reject){
     connection.query('SELECT username FROM users WHERE username = ?'
         , [value], function(error, results, fields) {
 
-            if (results.length > 0&&value==results[0].username) {
+            if (results&&results.length > 0&&value==results[0].username) {
                 //console.log("U:"+results[0].username);
                 reject(false);
 

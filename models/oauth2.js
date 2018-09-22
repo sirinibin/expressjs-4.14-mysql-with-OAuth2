@@ -40,7 +40,7 @@ check('access_token').custom((value, { req,res }) => {
                 }
                 console.log("RESULTS:");
                 console.log(results);
-                if (results.length > 0&&value==results[0].token) {
+                if (results&&results.length > 0&&value==results[0].token) {
                     // console.log(results[0].email);
                     oauth2.user_id=results[0].user_id;
                     resolve(true);
