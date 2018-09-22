@@ -80,7 +80,7 @@ accesstoken.generateAccessToken=function(req,res,attributes) {
 
             //response['data']=results[0];
 
-            return res.end(JSON.stringify(response,null, 3));
+            return res.status(400).end(JSON.stringify(response,null, 3));
 
 
         }

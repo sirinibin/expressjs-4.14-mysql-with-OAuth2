@@ -75,13 +75,13 @@ authorize.generateAuthToken=function(req,res,attributes) {
                     let response={
                         'status':0,
                         'errors':{
-                            'username':['Username or Password is Wrong']
+                            'password':['Username or Password is Wrong']
                         }
                     };
 
                     //response['data']=results[0];
 
-                    return res.end(JSON.stringify(response,null, 3));
+                    return res.status(400).end(JSON.stringify(response,null, 3));
 
                 }
 
@@ -140,13 +140,13 @@ authorize.generateAuthToken=function(req,res,attributes) {
                         let response={
                             'status':0,
                             'errors':{
-                                'username':['Username or Password is Wrong']
+                                'password':['Username or Password is Wrong']
                             }
                         };
 
                         //response['data']=results[0];
 
-                        return res.end(JSON.stringify(response,null, 3));
+                        return res.status(400).end(JSON.stringify(response,null, 3));
                     }
                 });
 

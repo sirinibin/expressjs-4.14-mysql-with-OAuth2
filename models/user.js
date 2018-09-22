@@ -2,8 +2,22 @@ const { check }  = require('express-validator/check');
 var bcrypt=require('bcrypt');
 
 var user={};
+
 user.validate = [
     check('email').isEmail().withMessage('Must be a Valid E-mail'),
+    check('email').custom((value, { req }) => {
+        return new Promise(function(resolve, reject){
+
+            if(value.trim()){
+                resolve(true);
+            }else {
+                reject(false);
+            }
+        });
+
+}).withMessage('Email is required'),
+
+
 
     check('username').custom((value, { req }) => {
         return new Promise(function(resolve, reject){
@@ -33,9 +47,10 @@ check('password').custom((value, { req }) => {
 check('username').custom((value, { req }) => {
 
 
-    if(value==undefined){
+    if(!value){
     return true;
     }
+console.log("Username:"+value);
 
 return new Promise(function(resolve, reject){
 
@@ -144,9 +159,11 @@ user.create=function(req,res,attributes) {
                     'data':{}
                 };
 
+
                 response['data']=results[0];
 
                 return res.end(JSON.stringify(response,null, 3));
+
 
             });
 

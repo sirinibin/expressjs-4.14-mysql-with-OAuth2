@@ -9,23 +9,6 @@ var bodyParser = require('body-parser');
 var mysql = require('mysql');
 
 
-
-/*
-var connection = mysql.createConnection({
-  host: "localhost",
-  user: "root",
-  password: "123",
-  port:3308,
-  database:"laravel_api"
-});
-
-connection.connect(function(err) {
-  if (err) throw err;
-  console.log("Connected!");
-});
-
-*/
-
 var index = require('./routes/index');
 var users = require('./routes/users');
 

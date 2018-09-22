@@ -1,5 +1,4 @@
 const { check }  = require('express-validator/check');
-var bcrypt=require('bcrypt');
 
 var me={};
 

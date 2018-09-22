@@ -164,7 +164,7 @@ employees.update=function(req,res) {
                 };
 
 
-                return res.end(JSON.stringify(response,null, 3));
+                return res.status(400).end(JSON.stringify(response,null, 3));
             }
 
 
@@ -237,7 +237,7 @@ employees.delete=function(req,res) {
                };
 
 
-               return res.end(JSON.stringify(response,null, 3));
+               return res.status(400).end(JSON.stringify(response,null, 3));
            }
 
 
@@ -302,7 +302,7 @@ employees.find=function(req,res,id) {
                 };
 
 
-                return res.end(JSON.stringify(response,null, 3));
+                return res.status(400).end(JSON.stringify(response,null, 3));
             }
 
 
@@ -396,12 +396,12 @@ employees.findAll=function(req,res) {
 
             let response={
                 'status':1,
-                'data':{},
                 'page':page,
                 'size':limit,
                 'totalCount':results2[0]['count(*)'],
                 'search_params':search_params,
-                'sort_by':sort_string
+                'sort_by':sort_string,
+                'data':{},
             };
 
             response['data']=results1;

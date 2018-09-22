@@ -1,7 +1,9 @@
 const { check }  = require('express-validator/check');
 
 var oauth2={};
+
 oauth2.user_id="";
+
 oauth2.validate = [
 
     check('access_token').custom((value, { req,res }) => {
