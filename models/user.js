@@ -87,7 +87,7 @@ check('email').custom((value, { req }) => {
             , [req.body.email], function(error, results, fields) {
 
                 console.log(results);
-                if (results.length&&results.length > 0&&value==results[0].email) {
+                if (results&&results.length > 0&&value==results[0].email) {
                     // console.log(results[0].email);
                     reject(false);
 
