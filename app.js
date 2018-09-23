@@ -8,6 +8,7 @@ var bodyParser = require('body-parser');
 
 
 var mysql = require('mysql');
+var db = require('./config/db');
 
 
 var index = require('./routes/index');
@@ -47,13 +48,7 @@ app.use(express.static(path.join(__dirname, 'public')));
 
 
 app.use(function(req, res, next){
-  global.connection = mysql.createConnection({
-    host     : 'localhost',
-    user     : 'root',
-    password : 'root',
-    port     : 3308,
-    database : 'expressjs_api'
-  });
+  global.connection = mysql.createConnection(db.info);
   global.connection.connect();
   next();
 });
