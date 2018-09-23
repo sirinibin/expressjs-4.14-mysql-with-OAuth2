@@ -22,7 +22,19 @@ INSTALLATION
 Step1. cd /var/www
 git clone -b master https://github.com/sirinibin/expressjs-4.14-mysql-with-OAuth2.git expressjs_api
 
-Step2: Edit Mysql Db details in app.js
+Step2: Make a new file under config/db.js and edit Mysql Db details.
+
+        db={};
+
+        db.info={
+            host     : 'localhost',
+            user     : 'root',
+            password : 'root',
+            port     : 3306,
+            database : 'expressjs_api'
+        };
+        module.exports = db;
+
 
 Step3: Set up Db from the file expressjs_api.sql
 
