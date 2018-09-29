@@ -58,8 +58,10 @@ Step6: Configure the developer dashboard
             "changeOrigin": true
           }
         }
+Step7. Install App:
+       npm install
 
-Step7: Start Developer dashboard
+Step8: Start Developer dashboard
        ng serve --port 4446  --proxy-config proxy.conf.json
 
 

@@ -2,15 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2bc58f57-4d1f-4ad0-aa58-cf3f67b273fa" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/myapp1.iml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/developers/src/app/globalprovider.ts" afterPath="$PROJECT_DIR$/developers/src/app/globalprovider.ts" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/routes/index.js" afterPath="$PROJECT_DIR$/routes/index.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/www" afterPath="$PROJECT_DIR$/bin/www" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/readme.md" afterPath="$PROJECT_DIR$/readme.md" />
     </list>
     <ignored path="myapp1.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -55,21 +47,21 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="authorize.js" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/models/authorize.js">
+      <file leaf-file-name="readme.md" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/readme.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2505">
-              <caret line="112" column="26" selection-start-line="112" selection-start-column="26" selection-end-line="112" selection-end-column="26" />
+            <state vertical-scroll-proportion="0.72490704" vertical-offset="555" max-vertical-offset="1245">
+              <caret line="63" column="5" selection-start-line="63" selection-start-column="5" selection-end-line="63" selection-end-column="5" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="home.component.html" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/developers/src/app/home/home.component.html">
+      <file leaf-file-name="authorize.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/models/authorize.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="913" max-vertical-offset="1425">
-              <caret line="82" column="31" selection-start-line="82" selection-start-column="25" selection-end-line="82" selection-end-column="31" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2505">
+              <caret line="112" column="26" selection-start-line="112" selection-start-column="26" selection-end-line="112" selection-end-column="26" />
               <folding />
             </state>
           </provider>
@@ -128,10 +120,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="globalprovider.ts" pinned="false" current-in-tab="true">
+      <file leaf-file-name="globalprovider.ts" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/developers/src/app/globalprovider.ts">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.21314387" vertical-offset="0" max-vertical-offset="563">
+            <state vertical-scroll-proportion="-4.8" vertical-offset="0" max-vertical-offset="345">
               <caret line="8" column="31" selection-start-line="8" selection-start-column="31" selection-end-line="8" selection-end-column="31" />
               <folding />
             </state>
@@ -190,13 +182,13 @@
         <option value="$PROJECT_DIR$/app.js" />
         <option value="$PROJECT_DIR$/.gitignore" />
         <option value="$PROJECT_DIR$/config/.gitignore" />
-        <option value="$PROJECT_DIR$/readme.md" />
         <option value="$PROJECT_DIR$/developers/src/app/login/login.component.html" />
         <option value="$PROJECT_DIR$/developers/src/app/signup/signup.component.html" />
         <option value="$PROJECT_DIR$/config/db.js" />
         <option value="$PROJECT_DIR$/bin/www" />
         <option value="$PROJECT_DIR$/routes/index.js" />
         <option value="$PROJECT_DIR$/developers/src/app/globalprovider.ts" />
+        <option value="$PROJECT_DIR$/readme.md" />
       </list>
     </option>
   </component>
@@ -205,8 +197,8 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="61" />
-    <option name="y" value="45" />
+    <option name="x" value="324" />
+    <option name="y" value="23" />
     <option name="width" value="1280" />
     <option name="height" value="709" />
   </component>
@@ -395,7 +387,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="61" y="45" width="1280" height="709" extended-state="0" />
+    <frame x="324" y="23" width="1280" height="709" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -758,14 +750,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/readme.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="570" max-vertical-offset="1215">
-          <caret line="38" column="26" selection-start-line="38" selection-start-column="26" selection-end-line="38" selection-end-column="26" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/developers/src/app/home/home.component.html">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="913" max-vertical-offset="1425">
@@ -843,8 +827,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/developers/src/app/globalprovider.ts">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.21314387" vertical-offset="0" max-vertical-offset="563">
+        <state vertical-scroll-proportion="-4.8" vertical-offset="0" max-vertical-offset="345">
           <caret line="8" column="31" selection-start-line="8" selection-start-column="31" selection-end-line="8" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/readme.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.72490704" vertical-offset="555" max-vertical-offset="1245">
+          <caret line="63" column="5" selection-start-line="63" selection-start-column="5" selection-end-line="63" selection-end-column="5" />
           <folding />
         </state>
       </provider>
