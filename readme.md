@@ -1,6 +1,6 @@
 [![Express Logo](https://i.cloudup.com/zfY6lL7eFa-3000x3000.png)](http://expressjs.com/)
 
-  Expressjs 4.15.5 + Mysql  RESTful API with OAuth2
+  Expressjs 4.15.5 + Mysql  RESTful API with OAuth2 (AWS LAMBDA/SERVERLESS ENABLED)
 
 This is a Ready to deploy(Both on LAMBDA And Server) Node.js RESTful API with OAuth2 authentication/security developed using Expressjs 4.15.5.
 You can use this if you want to quick start developing your own custom RESTful API by skipping 95% of your scratch works.
