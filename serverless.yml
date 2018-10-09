@@ -22,8 +22,8 @@ provider:
   runtime: nodejs8.10
 
 # you can overwrite defaults here
-#  stage: dev
-#  region: us-east-1
+#  stage: devcd expressjs_api
+region: us-west-2
 
 # you can add statements to the Lambda function's IAM Role here
 #  iamRoleStatements:

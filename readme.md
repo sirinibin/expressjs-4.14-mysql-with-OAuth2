@@ -19,7 +19,7 @@ Login: developer/developer
 ENDPOINTS
 -------------------
 ```
-AWS LAMBDA: https://acwaovazh6.execute-api.us-east-1.amazonaws.com/dev
+AWS LAMBDA: https://47871t8iu8.execute-api.us-west-2.amazonaws.com/dev
 SERVER: http://api.nodejs.mysql.nintriva.net
 ```
 
