@@ -5,8 +5,8 @@ var router = express.Router();
 var employees = require('./../../models/employees');
 var oauth2 = require('./../../models/oauth2');
 
-/* POST update. */
-router.post('/:id', oauth2.validate.concat(employees.validate), function (req, res, next) {
+/* PUT update. */
+router.put('/:id', oauth2.validate.concat(employees.validate), function (req, res, next) {
 
     res.setHeader('Content-Type', 'application/json');
 
