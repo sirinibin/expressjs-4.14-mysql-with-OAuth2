@@ -19,6 +19,7 @@ var register = require('./routes/oauth2/register');
 var authorize = require('./routes/oauth2/authorize');
 var accesstoken = require('./routes/oauth2/accesstoken');
 var me = require('./routes/oauth2/me');
+var logout = require('./routes/oauth2/logout');
 
 //Employees
 
@@ -60,6 +61,7 @@ app.use('/v1/register', register);
 app.use('/v1/authorize', authorize);
 app.use('/v1/accesstoken', accesstoken);
 app.use('/v1/me', me);
+app.use('/v1/logout', logout);
 
 //Employees
 app.use('/v1/employees', employees_create);

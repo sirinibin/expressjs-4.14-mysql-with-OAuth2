@@ -130,4 +130,35 @@ accesstoken.generateAccessToken=function(req,res,attributes) {
 
 
 }
+accesstoken.delete=function(req,res) {
+
+    console.log("Inside Delete function");
+
+    if(req.query.access_token){
+
+        //Perform Deletion
+
+        query='DELETE FROM access_tokens WHERE token=?';
+        params=[req.query.access_token];
+
+        connection.query(query,params, function (error, results, fields) {
+            if (error) {
+                return  res.end(JSON.stringify(error,null, 3));
+            }
+            console.log(results);
+
+            let response={
+                'status':1,
+                'message':'Deleted Successfully',
+                'data':{
+                    'token':req.query.access_token
+                }
+            };
+
+            return res.end(JSON.stringify(response,null, 3));
+        });
+    
+    }
+
+}
 module.exports = accesstoken;
